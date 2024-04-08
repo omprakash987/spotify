@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+  <nav class="navbar">
+    <h1>Spotify Clone</h1>
+
+  </nav>
+
+  <main class="mainContainer">
+
+    <div class="searchBox">
+  <input class="inputBox" type="text" id="searchInput" placeholder="Search for a track">
+  <button class="search" onclick="searchTracks()">Search</button>
+
+  <div class="tracksList" id="tracksList"></div>
+</div>
+
+
+<div class="audio" onclick="playSong('${track.url}')">
+  <audio onclick="playSong('${track.url}')" id="audioPlayer" controls>
+    Your browser does not support the audio element.
+  </audio>
+</div>
+</main>
+
+<footer>
+
+</footer>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

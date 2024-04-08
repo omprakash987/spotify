@@ -1,0 +1,55 @@
+
+
+.container{
+    width: 100%;
+}
+
+#audioPlayer{
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchBox{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputBox{
+    width: 50%;
+    height: 2rem;
+    border-radius : 10px;
+    padding: 4px;
+}
+
+.search{
+    height: 2.3rem;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+.tracksList{
+    height: 2.3rem;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.audio{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
